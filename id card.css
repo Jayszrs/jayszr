@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin: 10% 30%;
+    border: 3px solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 35Px 0px #030303;
+    background-color:#000000;
+    color:#e5e903
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    margin: 5rem;
+}
+
+.iconheader{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+}
+
+.fa-regular{
+    margin-right: 15px;
+}
+
+.fotodiri img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0% auto;
+}
+ .section{
+    margin: 100px auto;
+    }
+
+section img{
+    border-radius: 100%;
+    border: 10px solid #fff;
+    }
+
+.fotodiri img:hover{
+    
+    width: 220px;
+    height: 220px;
+}
+
+.nama h2{
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15px;
+}
+
+
+.deskripsi{
+    padding: 0 50px 15px 50px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.tombol{
+    padding-bottom: 30px;
+}
+
+.tombol button{
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    font-weight: bolder;
+    padding: 15px;
+    margin: 10px 40px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 150px;
+    border-radius: 12px;
+    background: #000;
+    transition: .5s;
+}
+
+.tombol button:hover{
+    background-color: blueviolet;
+}
+
+.tombol button:hover{
+    color: #ffffff;
+}
+
+.sosmed .tiktok{
+    width: 75px;
+}
+
+.sosmed img{
+    padding: 0 10px;
+    width: 65px;
+}
+
+.sosmed img:hover{
+    width: 75px;
+}
+
+.sosmed .tiktok:hover{
+    width: 90px;
+}
