@@ -1,0 +1,20 @@
+body{
+    background-color: #000;
+}
+.carousel-inner .carousel-item {
+     border: 10px solid #fff;
+}
+
+.tulisan {
+    text-align: center;
+    margin: 50px auto;
+    text-transform: uppercase;
+    text-shadow:  3px 3px 2px #FFFF00;
+}
+
+.sosmed  img {
+    width: 100px;
+    position: relative;
+    right: -470px;
+    margin-right: 50px;
+}
